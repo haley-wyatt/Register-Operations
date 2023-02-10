@@ -1,8 +1,6 @@
 /*
 Name: Wyatt Haley
-Class: CS 219 w/ Bashira Akter Anima
-Date: 12/03/2022
-Assignment: Programming Project 3
+Class: Computer Architecture
 File name: driver.cpp
 */
 

@@ -1,10 +1,9 @@
 Name: Wyatt Haley
-Class: CS 219 w/ Bashira Akter Anima
-Date: 12/03/2022
+Class: Computer Architecture
 File name: readme.txt
 
 Instructions to run code:
-    This code is written in c++ and will compile in c++ version 11
+    The makefile is set-up to use GNU c++ compiler
     In terminal run the following commands:
         make
         ./executable Programming-Project-3.txt
@@ -21,7 +20,6 @@ The driver.cpp has comments for each piece of logic to follow. Below is a summar
 The  Programming-Project-2.txt file is passed in as a command line argument. 
 The file is opened and an input file stream object is created.
 The data is pulled from the Programming-Project-3.txt and each word is pushed into a string queue.
-The file is closed.
 The queue is iterated through, operations and operands/register-locations are identified and separated.
 The operation and operands are passed into functions that perform arithmetic.
 Register values are printed after every operation is performed. 

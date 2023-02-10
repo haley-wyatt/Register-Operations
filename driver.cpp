@@ -13,17 +13,13 @@ File name: driver.cpp
 #include <queue>
 #include <algorithm>
 
-// function declarations
 void solve(std::queue<std::string>& q);
 int pullData(std::string file, std::queue<std::string>& q);
 template<class ItemType>
 ItemType mathFunction(std::string operation, ItemType operand1, ItemType operand2);
 void printData(uint32_t r0, uint32_t r1,uint32_t r2,uint32_t r3,uint32_t r4,uint32_t r5,uint32_t r6,uint32_t r7);
 
-
-// main function
 int main(int argc, char const* argv[]){
-    // variable declarations
     std::queue<std::string> q;
 
     // check that program run included text file
@@ -39,9 +35,7 @@ int main(int argc, char const* argv[]){
     pullData(fileName, q);
     
     // perform program arithmetic
-    solve(q);
-    
-    // main return statement        
+    solve(q);  
     return 0;
 }
 
